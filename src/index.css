@@ -11,7 +11,9 @@
 
   /* layout */
   --largura-maxima: 1100px;
-  --padding-lateral: 24px /* Border Radio */ --raio-pequeno: 6px;
+  --padding-lateral: 24px;
+  /* Border Radio */
+  --raio-pequeno: 6px;
   --raio-grande: 8px;
 
   * {
@@ -33,7 +35,7 @@
       "Open Sans",
       "Helvetica Neue",
       sans-serif;
-      color: var(--cor-texto);
-      background-color: var(--cor-fundo);
+    color: var(--cor-texto);
+    background-color: var(--cor-fundo);
   }
 }
