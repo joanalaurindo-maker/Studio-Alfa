@@ -58,38 +58,18 @@
   border-color: var(--cor-texto);
 }
 
-.servico{
-  padding:60px 0;
+.servico {
+  padding: 60px 0;
 }
 
-.servico h2{
+.servico h2 {
   font-size: 22px;
   color: var(--color-titulo);
   margin-bottom: 32px;
 }
 
-
-.servicos-grid{
-display: grid;
-grid-template-columns:repeat(3,1fr)
+.servicos-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
 }
 
-.servicos-card{
-  max-width: 3000px;
-  padding: 24px;
-  border:1px solid var(--cor-borda);
-  border-radius: var(--raio-grande);
-  gap: 22px;
-}
-
-.servico-card h3{
-  font-size:16px;
-  color: var(--cor-titulo);
-  margin-bottom:8px;
-}
-
-.servico-card p{
-  font-size: 14px;
-  color: var(--color-texto-sutil);
-  line-height: 1.5;
-}
